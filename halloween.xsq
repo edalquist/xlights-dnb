@@ -2,27 +2,32 @@
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
     <version>2020.43</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
-    <song></song>
-    <artist></artist>
-    <album></album>
-    <MusicURL></MusicURL>
-    <comment></comment>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
     <sequenceTiming>25 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
-    <mediaFile></mediaFile>
+    <mediaFile/>
     <sequenceDuration>30.000</sequenceDuration>
-    <imageDir></imageDir>
+    <imageDir/>
   </head>
   <nextid>1</nextid>
+  <Jukebox/>
   <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FB0207,C_BUTTON_Palette2=#B50203,C_BUTTON_Palette3=#FF2F00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00B3,C_CHECKBOX_Palette8=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FB0207,C_BUTTON_Palette2=#B50203,C_BUTTON_Palette3=#FF2F00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00B3,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette6=1,C_SLIDER_Brightness=80</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#21FF06,C_BUTTON_Palette2=#B50203,C_BUTTON_Palette3=#480000,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette8=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FB0207,C_BUTTON_Palette2=#B50203,C_BUTTON_Palette3=#FF2F00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00B3,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette6=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
+    <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=247,E_SLIDER_Shockwave_Start_Radius=0,E_SLIDER_Shockwave_Start_Width=0</Effect>
     <Effect>E_CHOICE_Butterfly_Colors=Palette,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1,T_CHOICE_LayerMethod=Layered</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=55,E_SLIDER_Number_Chases=2,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=20.0</Effect>
     <Effect>E_CHOICE_Plasma_Color=Normal,E_SLIDER_Plasma_Line_Density=3,E_SLIDER_Plasma_Speed=63,E_SLIDER_Plasma_Style=1</Effect>
   </EffectDB>
   <DataLayers>
@@ -62,15 +67,29 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Rear Bike - Front Wheel">
-      <EffectLayer/>
       <EffectLayer>
-        <Effect ref="0" name="Butterfly" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="Shockwave" startTime="1000" endTime="1750" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="1" startTime="6000" endTime="6750" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="2" startTime="11000" endTime="11750" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="3" startTime="16000" endTime="16750" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="4" startTime="21000" endTime="21750" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="5" startTime="26000" endTime="26750" palette="0"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="1" name="Butterfly" startTime="0" endTime="30000" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Rear Bike - Rear Wheel">
-      <EffectLayer/>
       <EffectLayer>
-        <Effect ref="0" name="Butterfly" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="Shockwave" startTime="1500" endTime="2250" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="1" startTime="6500" endTime="7250" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="2" startTime="11500" endTime="12250" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="3" startTime="16500" endTime="17250" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="4" startTime="21500" endTime="22250" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="5" startTime="26500" endTime="27250" palette="0"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="1" name="Butterfly" startTime="0" endTime="30000" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Full Bike">
@@ -80,15 +99,29 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Front Bike - Front Wheel">
-      <EffectLayer/>
       <EffectLayer>
-        <Effect ref="0" name="Butterfly" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="Shockwave" startTime="0" endTime="750" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="1" startTime="5000" endTime="5750" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="2" startTime="10000" endTime="10750" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="3" startTime="15000" endTime="15750" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="4" startTime="20000" endTime="20750" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="5" startTime="25000" endTime="25750" palette="0"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="1" name="Butterfly" selected="1" startTime="0" endTime="30000" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Front Bike - Rear Wheel">
-      <EffectLayer/>
       <EffectLayer>
-        <Effect ref="0" name="Butterfly" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="Shockwave" startTime="500" endTime="1250" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="1" startTime="5500" endTime="6250" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="2" startTime="10500" endTime="11250" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="3" startTime="15500" endTime="16250" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="4" startTime="20500" endTime="21250" palette="0"/>
+        <Effect ref="0" name="Shockwave" id="5" startTime="25500" endTime="26250" palette="0"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="1" name="Butterfly" startTime="0" endTime="30000" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Front Bike">
@@ -98,7 +131,9 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Front Bike - Chain Ring">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="2" name="SingleStrand" startTime="0" endTime="30000" palette="2"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Front Bike - Front Wheel Spokes">
       <EffectLayer/>
@@ -108,7 +143,7 @@
     </Element>
     <Element type="model" name="Front Bike - Frame">
       <EffectLayer>
-        <Effect ref="1" name="Plasma" startTime="0" endTime="30000" palette="1"/>
+        <Effect ref="3" name="Plasma" startTime="0" endTime="30000" palette="3"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Front Bike - Partial Rear Wheel">
@@ -122,7 +157,7 @@
     </Element>
     <Element type="model" name="Rear Bike - Frame">
       <EffectLayer>
-        <Effect ref="1" name="Plasma" startTime="0" endTime="30000" palette="1"/>
+        <Effect ref="3" name="Plasma" startTime="0" endTime="30000" palette="3"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Rear Bike - Front Wheel Rim">
@@ -138,7 +173,9 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Rear Bike - Chain Ring">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="2" name="SingleStrand" startTime="0" endTime="30000" palette="2"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Rear Bike - Rear Wheel Rim">
       <EffectLayer/>
