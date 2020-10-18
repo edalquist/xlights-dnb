@@ -89,4 +89,6 @@
   <keybinding keycode="n" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Snowflakes" xLightsVersion="2019.34"></keybinding>
   <keybinding keycode="O" alt="FALSE" control="FALSE" shift="TRUE" type="EFFECT" effect="Off" xLightsVersion="2019.34"></keybinding>
   <keybinding keycode="F" alt="FALSE" control="FALSE" shift="TRUE" type="EFFECT" effect="Fan" xLightsVersion="2019.34"></keybinding>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="PRESETS_TOGGLE"/>
+  <keybinding keycode="F12" alt="FALSE" control="FALSE" shift="FALSE" type="FOCUS_SEQUENCER"/>
 </keybindings>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2019.38</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile/>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FB0207,C_BUTTON_Palette2=#FD8008,C_BUTTON_Palette3=#FFFF0A,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFFFF,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FB0207,C_BUTTON_Palette2=#FD8008,C_BUTTON_Palette3=#FFFF0A,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFFFF,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette5=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FB0207,C_BUTTON_Palette2=#FD8008,C_BUTTON_Palette3=#FFFF0A,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#040A72,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FB0207,C_BUTTON_Palette2=#FD8008,C_BUTTON_Palette3=#FFFF0A,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#040A72,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FB0207,C_BUTTON_Palette2=#FD8008,C_BUTTON_Palette3=#FFFF0A,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#040A72,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=0,E_NOTEBOOK_Fan=Position,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=90,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=80,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=500,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=1440,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=1</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=36,E_SLIDER_Number_Chases=2,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=20.0</Effect>
+    <Effect>E_CHECKBOX_Strobe_Music=0,E_SLIDER_Number_Strobes=3,E_SLIDER_Strobe_Duration=2,E_SLIDER_Strobe_Type=1,T_CHOICE_LayerMethod=Max</Effect>
+    <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=0,E_SLIDER_Shockwave_Start_Radius=0,E_SLIDER_Shockwave_Start_Width=133</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="model" name="Both Bikes" visible="1"/>
+    <Element collapsed="0" type="model" name="Rear Bike" visible="1"/>
+    <Element collapsed="0" type="model" name="Front Bike" visible="1"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Frame" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Chain Ring" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Rear Wheel Rim" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Front Wheel Spokes" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Front Wheel Rim" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Rear Wheel Spokes" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Front Wheel" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Rear Wheel" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Front Wheel" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Rear Wheel" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Partial Rear Wheel" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Partial Rear Wheel" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Rear Wheel Rim" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Rear Wheel Spokes" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Front Wheel Rim" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Front Wheel Spokes" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Frame" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Chain Ring" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="model" name="Both Bikes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Rear Bike">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Front Bike">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Rear Bike - Frame">
+      <EffectLayer>
+        <Effect ref="0" name="Fan" startTime="0" endTime="29950" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rear Bike - Chain Ring">
+      <EffectLayer>
+        <Effect ref="1" name="SingleStrand" startTime="0" endTime="29900" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rear Bike - Rear Wheel Rim">
+      <EffectLayer>
+        <Effect ref="2" name="Strobe" startTime="3000" endTime="3625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="1" startTime="5500" endTime="6125" palette="1"/>
+        <Effect ref="2" name="Strobe" id="2" startTime="9525" endTime="10150" palette="1"/>
+        <Effect ref="2" name="Strobe" id="3" startTime="14500" endTime="15125" palette="1"/>
+        <Effect ref="2" name="Strobe" id="4" startTime="18000" endTime="18625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="5" startTime="22000" endTime="22625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="6" startTime="26950" endTime="27575" palette="1"/>
+      </EffectLayer>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Rear Bike - Front Wheel Spokes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Rear Bike - Front Wheel Rim">
+      <EffectLayer>
+        <Effect ref="2" name="Strobe" startTime="1000" endTime="1625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="1" startTime="6025" endTime="6650" palette="1"/>
+        <Effect ref="2" name="Strobe" id="2" startTime="9000" endTime="9625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="3" startTime="12000" endTime="12625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="4" startTime="15500" endTime="16125" palette="1"/>
+        <Effect ref="2" name="Strobe" id="5" startTime="20000" endTime="20625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="6" startTime="24500" endTime="25125" palette="1"/>
+        <Effect ref="2" name="Strobe" id="7" startTime="28000" endTime="28625" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rear Bike - Rear Wheel Spokes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Rear Bike - Front Wheel">
+      <EffectLayer>
+        <Effect ref="3" name="Shockwave" startTime="0" endTime="1000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="1" startTime="5025" endTime="6025" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="2" startTime="8000" endTime="9000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="3" startTime="11000" endTime="12000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="4" startTime="14500" endTime="15500" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="5" startTime="19000" endTime="20000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="6" startTime="23500" endTime="24500" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="7" startTime="27000" endTime="28000" palette="2"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="3" name="Shockwave" startTime="125" endTime="1125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="1" startTime="5150" endTime="6150" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="2" startTime="8125" endTime="9125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="3" startTime="11125" endTime="12125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="4" startTime="14625" endTime="15625" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="5" startTime="19125" endTime="20125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="6" startTime="23625" endTime="24625" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="7" startTime="27125" endTime="28125" palette="3"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="3" name="Shockwave" startTime="250" endTime="1250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="1" startTime="5275" endTime="6275" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="2" startTime="8250" endTime="9250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="3" startTime="11250" endTime="12250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="4" startTime="14750" endTime="15750" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="5" startTime="19250" endTime="20250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="6" startTime="23750" endTime="24750" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="7" startTime="27250" endTime="28250" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rear Bike - Rear Wheel">
+      <EffectLayer>
+        <Effect ref="3" name="Shockwave" startTime="2000" endTime="3000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="1" startTime="4500" endTime="5500" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="2" startTime="8525" endTime="9525" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="3" startTime="13500" endTime="14500" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="4" startTime="17000" endTime="18000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="5" startTime="21000" endTime="22000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="6" startTime="25950" endTime="26950" palette="2"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="3" name="Shockwave" startTime="2125" endTime="3125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="1" startTime="4625" endTime="5625" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="2" startTime="8650" endTime="9650" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="3" startTime="13625" endTime="14625" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="4" startTime="17125" endTime="18125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="5" startTime="21125" endTime="22125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="6" startTime="26075" endTime="27075" palette="3"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="3" name="Shockwave" startTime="2250" endTime="3250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="1" startTime="4750" endTime="5750" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="2" startTime="8775" endTime="9775" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="3" startTime="13750" endTime="14750" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="4" startTime="17250" endTime="18250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="5" startTime="21250" endTime="22250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="6" startTime="26200" endTime="27200" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Front Bike - Front Wheel">
+      <EffectLayer>
+        <Effect ref="3" name="Shockwave" startTime="3000" endTime="4000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="1" startTime="6000" endTime="7000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="2" startTime="10000" endTime="11000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="3" startTime="12000" endTime="13000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="4" startTime="16000" endTime="17000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="5" startTime="18500" endTime="19500" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="6" startTime="22000" endTime="23000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="7" startTime="24000" endTime="25000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="8" startTime="27500" endTime="28500" palette="2"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="3" name="Shockwave" startTime="3125" endTime="4125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="1" startTime="6125" endTime="7125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="2" startTime="10125" endTime="11125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="3" startTime="12125" endTime="13125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="4" startTime="16125" endTime="17125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="5" startTime="18625" endTime="19625" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="6" startTime="22125" endTime="23125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="7" startTime="24125" endTime="25125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="8" startTime="27625" endTime="28625" palette="3"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="3" name="Shockwave" startTime="3250" endTime="4250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="1" startTime="6250" endTime="7250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="2" startTime="10250" endTime="11250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="3" startTime="12250" endTime="13250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="4" startTime="16250" endTime="17250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="5" startTime="18750" endTime="19750" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="6" startTime="22250" endTime="23250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="7" startTime="24250" endTime="25250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="8" startTime="27750" endTime="28750" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Front Bike - Rear Wheel">
+      <EffectLayer>
+        <Effect ref="3" name="Shockwave" startTime="1000" endTime="2000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="1" startTime="3500" endTime="4500" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="2" startTime="7000" endTime="8000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="3" startTime="9500" endTime="10500" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="4" startTime="13000" endTime="14000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="5" startTime="16525" endTime="17525" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="6" startTime="20525" endTime="21525" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="7" startTime="25000" endTime="26000" palette="2"/>
+        <Effect ref="3" name="Shockwave" id="8" startTime="28500" endTime="29500" palette="2"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="3" name="Shockwave" startTime="1125" endTime="2125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="1" startTime="3625" endTime="4625" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="2" startTime="7125" endTime="8125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="3" startTime="9625" endTime="10625" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="4" startTime="13125" endTime="14125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="5" startTime="16650" endTime="17650" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="6" startTime="20650" endTime="21650" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="7" startTime="25125" endTime="26125" palette="3"/>
+        <Effect ref="3" name="Shockwave" id="8" startTime="28625" endTime="29625" palette="3"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="3" name="Shockwave" startTime="1250" endTime="2250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="1" startTime="3750" endTime="4750" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="2" startTime="7250" endTime="8250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="3" startTime="9750" endTime="10750" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="4" startTime="13250" endTime="14250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="5" startTime="16775" endTime="17775" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="6" startTime="20775" endTime="21775" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="7" startTime="25250" endTime="26250" palette="4"/>
+        <Effect ref="3" name="Shockwave" id="8" startTime="28750" endTime="29750" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rear Bike - Partial Rear Wheel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Front Bike - Partial Rear Wheel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Front Bike - Rear Wheel Rim">
+      <EffectLayer>
+        <Effect ref="2" name="Strobe" startTime="2000" endTime="2625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="1" startTime="4500" endTime="5125" palette="1"/>
+        <Effect ref="2" name="Strobe" id="2" startTime="8000" endTime="8625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="3" startTime="10500" endTime="11125" palette="1"/>
+        <Effect ref="2" name="Strobe" id="4" startTime="14000" endTime="14625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="5" startTime="17525" endTime="18150" palette="1"/>
+        <Effect ref="2" name="Strobe" id="6" startTime="21525" endTime="22150" palette="1"/>
+        <Effect ref="2" name="Strobe" id="7" startTime="26000" endTime="26600" palette="1"/>
+        <Effect ref="2" name="Strobe" selected="1" id="8" startTime="29500" endTime="30125" palette="1"/>
+      </EffectLayer>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Front Bike - Rear Wheel Spokes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Front Bike - Front Wheel Rim">
+      <EffectLayer>
+        <Effect ref="2" name="Strobe" startTime="4000" endTime="4625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="1" startTime="7000" endTime="7625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="2" startTime="11000" endTime="11625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="3" startTime="13000" endTime="13625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="4" startTime="17000" endTime="17625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="5" startTime="19500" endTime="20125" palette="1"/>
+        <Effect ref="2" name="Strobe" id="6" startTime="23000" endTime="23625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="7" startTime="25000" endTime="25625" palette="1"/>
+        <Effect ref="2" name="Strobe" id="8" startTime="28500" endTime="29125" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Front Bike - Front Wheel Spokes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Front Bike - Frame">
+      <EffectLayer>
+        <Effect ref="0" name="Fan" startTime="0" endTime="29950" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Front Bike - Chain Ring">
+      <EffectLayer>
+        <Effect ref="1" name="SingleStrand" startTime="0" endTime="29900" palette="0"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

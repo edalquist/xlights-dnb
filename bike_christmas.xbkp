@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2019.38</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile/>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#21FF06,C_BUTTON_Palette2=#B50203,C_BUTTON_Palette3=#480000,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FB0207,C_BUTTON_Palette2=#B50203,C_BUTTON_Palette3=#007300,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#040A72,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=25,C_SLIDER_SparkleFrequency=50</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FB0207,C_BUTTON_Palette2=#B50203,C_BUTTON_Palette3=#007300,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#040A72,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=25</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FB0207,C_BUTTON_Palette2=#B50203,C_BUTTON_Palette3=#480000,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=4,E_SLIDER_Number_Chases=3,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=3.5</Effect>
+    <Effect>T_CHOICE_LayerMethod=Additive</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=24,E_SLIDER_Number_Chases=2,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=20.0</Effect>
+    <Effect>E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=1,E_NOTEBOOK_Fan=Blades,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=0,E_SLIDER_Fan_Blade_Width=60,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=100,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=242,E_SLIDER_Fan_Num_Blades=2,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=3600,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=0,T_CHOICE_LayerMethod=Additive</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=4,E_SLIDER_Number_Chases=3,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=3.5</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="model" name="Both Bikes" visible="1"/>
+    <Element collapsed="0" type="model" name="Rear Bike" visible="1"/>
+    <Element collapsed="0" type="model" name="Front Bike" visible="1"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Frame" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Chain Ring" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Rear Wheel Rim" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Front Wheel Spokes" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Front Wheel Rim" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Rear Wheel Spokes" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Front Wheel" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Rear Wheel" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Front Wheel" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Rear Wheel" visible="0"/>
+    <Element collapsed="0" type="model" name="Rear Bike - Partial Rear Wheel" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Partial Rear Wheel" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Rear Wheel Rim" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Rear Wheel Spokes" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Front Wheel Rim" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Front Wheel Spokes" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Frame" visible="0"/>
+    <Element collapsed="0" type="model" name="Front Bike - Chain Ring" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="model" name="Both Bikes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Rear Bike">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Front Bike">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Rear Bike - Frame">
+      <EffectLayer>
+        <Effect ref="0" name="SingleStrand" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rear Bike - Chain Ring">
+      <EffectLayer>
+        <Effect ref="2" name="SingleStrand" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rear Bike - Rear Wheel Rim">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rear Bike - Front Wheel Spokes">
+      <EffectLayer>
+        <Effect ref="3" name="Fan" startTime="0" endTime="29950" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rear Bike - Front Wheel Rim">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rear Bike - Rear Wheel Spokes">
+      <EffectLayer>
+        <Effect ref="3" name="Fan" startTime="50" endTime="30000" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rear Bike - Front Wheel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Rear Bike - Rear Wheel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Front Bike - Front Wheel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Front Bike - Rear Wheel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Rear Bike - Partial Rear Wheel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Front Bike - Partial Rear Wheel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Front Bike - Rear Wheel Rim">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Front Bike - Rear Wheel Spokes">
+      <EffectLayer>
+        <Effect ref="3" name="Fan" startTime="0" endTime="29950" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Front Bike - Front Wheel Rim">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Front Bike - Front Wheel Spokes">
+      <EffectLayer>
+        <Effect ref="3" name="Fan" startTime="0" endTime="29950" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Front Bike - Frame">
+      <EffectLayer>
+        <Effect ref="4" name="SingleStrand" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Front Bike - Chain Ring">
+      <EffectLayer>
+        <Effect ref="2" name="SingleStrand" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="25" endTime="30025" palette="2"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

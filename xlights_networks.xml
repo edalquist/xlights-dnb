@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Networks computer="edalquist-macbookpro2">
-  <network ChannelsPerPacket="1440" KeepChannelNumbers="1" AutoStartChannels="false" ComPort="FPP" BaudRate="64001" NetworkType="DDP" Description="FPP" Controller="PiHat" MaxChannels="600"/>
+  <network ChannelsPerPacket="1440" KeepChannelNumbers="1" AutoStartChannels="true" ComPort="192.168.86.25" BaudRate="1" NetworkType="DDP" Description="FPP" Controller="PiHat" MaxChannels="1800"/>
 </Networks>
