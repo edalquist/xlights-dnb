@@ -38,11 +38,10 @@
     <Element collapsed="0" type="timing" name="250ms Metronome" visible="1" views="" active="1"/>
     <Element collapsed="0" type="model" name="Rear Bike - Front Wheel" visible="1"/>
     <Element collapsed="0" type="model" name="Rear Bike - Rear Wheel" visible="1"/>
-    <Element collapsed="0" type="model" name="Full Bike" visible="1"/>
     <Element collapsed="0" type="model" name="Rear Bike" visible="1"/>
     <Element collapsed="0" type="model" name="Front Bike - Front Wheel" visible="1"/>
     <Element collapsed="0" type="model" name="Front Bike - Rear Wheel" visible="1"/>
-    <Element collapsed="0" type="model" name="Front Bike" visible="1"/>
+    <Element collapsed="0" type="model" name="Bike 2" visible="1"/>
     <Element collapsed="0" type="model" name="Both Bikes" visible="1"/>
     <Element collapsed="0" type="model" name="Front Bike - Chain Ring" visible="1"/>
     <Element collapsed="0" type="model" name="Front Bike - Front Wheel Spokes" visible="1"/>
@@ -92,9 +91,6 @@
         <Effect ref="1" name="Butterfly" startTime="0" endTime="30000" palette="1"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Full Bike">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Rear Bike">
       <EffectLayer/>
     </Element>
@@ -108,7 +104,7 @@
         <Effect ref="0" name="Shockwave" id="5" startTime="25000" endTime="25750" palette="0"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="1" name="Butterfly" selected="1" startTime="0" endTime="30000" palette="1"/>
+        <Effect ref="1" name="Butterfly" startTime="0" endTime="30000" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Front Bike - Rear Wheel">
@@ -124,7 +120,7 @@
         <Effect ref="1" name="Butterfly" startTime="0" endTime="30000" palette="1"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Front Bike">
+    <Element type="model" name="Bike 2">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Both Bikes">
